@@ -1,0 +1,72 @@
+.modalContainer{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    justify-content: space-between; 
+}
+.formDataDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.submitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputparams{
+    padding-left: 30px;
+}
+.formQuestion{
+    width: 100%;   
+    display: flex;
+    justify-content:space-between;
+}
+.editUserHeading{
+    font-weight: bold;
+    font-size: large;
+}
+.editContainer{ 
+    height: 92vh;
+    width: 100vw;  
+    display: flex;
+    flex-direction: column;    
+    align-items: center;    
+    padding-top: 5%;
+}
+.editDiv{
+    width: 50%;
+    padding: 1rem;
+    margin-top: 5%;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(199, 199, 201, 0.5);
+}
+.headingModal{
+    font-weight: bold;
+    font-size: large;
+}
+
+@media screen and (max-width : 700px){
+    .formQuestion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .modalContainer{
+       
+        height: 100%;
+        width: 100%;
+    }
+   
+
+}
